@@ -28,19 +28,19 @@ A simple and elegant **Expense Tracker Web App** built with **Django**, **SQLite
 ## 🖼️ Screenshots
 
 ### 🔐 Login Page
-![Login Page](expenses/screenshots/login.png)
+![Login Page](screenshots/login.png)
 
 ### 🏠 Dashboard
-![Dashboard](expenses/screenshots/dashboard.png)
+![Dashboard](screenshots/dashboard.png)
 
 ### ➕ Add Expense
-![Add Expense](expenses/screenshots/add_expense.png)
+![Add Expense](screenshots/add_expense.png)
 
 ### ✏️ Edit Expense
-![Edit Expense](expenses/screenshots/edit_expense.png)
+![Edit Expense](screenshots/edit_expense.png)
 
 ### 📊 Expense Chart
-![Expense Chart](expenses/screenshots/chart.png)
+![Expense Chart](screenshots/chart.png)
 
 
 ## ⚙️ How to Run Locally
