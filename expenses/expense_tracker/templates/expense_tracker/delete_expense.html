@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Expense</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: white;
+            padding: 2rem 3rem;
+            border-radius: 12px;
+            box-shadow: 0 0 12px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        h2 {
+            margin-bottom: 1rem;
+            color: #333;
+        }
+        .buttons {
+            margin-top: 1.5rem;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+        button, a {
+            padding: 0.6rem 1.5rem;
+            border: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            cursor: pointer;
+            text-decoration: none;
+            color: white;
+        }
+        .delete-btn {
+            background-color: #e74c3c;
+        }
+        .cancel-btn {
+            background-color: #3498db;
+        }
+        .delete-btn:hover {
+            background-color: #c0392b;
+        }
+        .cancel-btn:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Are you sure you want to delete this expense?</h2>
+        <p><strong>{{ expense.title }}</strong> — RM {{ expense.amount }}</p>
+
+        <div class="buttons">
+            <form method="POST">
+                {% csrf_token %}
+                <button type="submit" class="delete-btn">Yes, Delete</button>
+            </form>
+            <a href="{% url 'home' %}" class="cancel-btn">Cancel</a>
+        </div>
+    </div>
+</body>
+</html>

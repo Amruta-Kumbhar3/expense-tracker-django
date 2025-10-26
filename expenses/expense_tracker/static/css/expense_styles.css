@@ -1,0 +1,178 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f5f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container card */
+.container {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    width: 400px;
+}
+
+/* Headings */
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+/* Form layout */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Labels */
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Inputs and select fields */
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: all 0.2s;
+}
+
+/* Focus effect for inputs */
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+select:focus {
+    outline: none;
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0,123,255,0.3);
+}
+
+/* Submit button */
+button {
+    padding: 12px;
+    background-color: #007BFF; /* Edit page */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Add page button can override background-color inline in template if needed */
+
+/* Back link */
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* Edit page button (default) */
+button.edit-btn {
+    background-color: #007BFF; /* Blue */
+}
+
+button.edit-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Add page button */
+button.add-btn {
+    background-color: #28a745; /* Green */
+}
+
+button.add-btn:hover {
+    background-color: #218838;
+}
+
+.logout-btn {
+    background-color: #f44336; /* red */
+    color: white;
+    padding: 5px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logout-btn:hover {
+    background-color: #d32f2f;
+}
+
+.login-btn {
+    background-color: #2196F3; /* blue */
+    color: white;
+    padding: 5px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-btn:hover {
+    background-color: #1976D2;
+}
+
+/* Light mode (default) */
+body {
+  background-color: #f8f9fc;
+  color: #212529;
+}
+
+.navbar {
+  transition: background 0.3s;
+}
+
+/* Dark mode */
+.dark-mode {
+  background-color: #121212 !important;
+  color: #e0e0e0 !important;
+}
+
+.dark-mode .navbar {
+  background-color: #1f1f1f !important;
+}
+
+.dark-mode table {
+  background-color: #2a2a2a !important;
+  color: #fff;
+}
+
+.dark-mode .table th {
+  background-color: #3a3a3a !important;
+  color: #fff !important;
+}
+
+.dark-mode .card {
+  background-color: #2c2c2c !important;
+  color: #fff !important;
+  box-shadow: 0 2px 8px rgba(255,255,255,0.1);
+}
+
+* {
+  transition: background-color 0.3s, color 0.3s;
+}

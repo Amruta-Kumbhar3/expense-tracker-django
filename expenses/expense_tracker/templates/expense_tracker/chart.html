@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Expense Chart</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            color: #222;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        h2 {
+            margin-top: 30px;
+        }
+
+        img {
+            max-width: 80%;
+            height: auto;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            background: #007bff;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin-top: 25px;
+        }
+
+        /* Dark Mode Styling */
+        .dark-mode {
+            background-color: #121212 !important;
+            color: #e0e0e0 !important;
+        }
+
+        .dark-mode img {
+            border-color: #444;
+            box-shadow: 0 2px 10px rgba(255,255,255,0.1);
+        }
+
+        .dark-mode a {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Expense Visualization</h2>
+
+    <img id="chartImage" src="data:image/png;base64,{{ chart }}" alt="Expense Chart">
+
+    <br>
+    <a href="{% url 'home' %}">← Back to Dashboard</a>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const theme = localStorage.getItem("theme");
+
+        // Apply dark theme to this page
+        if (theme === "dark") {
+            document.body.classList.add("dark-mode");
+
+            // Reload the chart with dark parameter if not already
+            if (!window.location.search.includes("theme=dark")) {
+                const newUrl = window.location.pathname + "?theme=dark";
+                window.location.href = newUrl;
+            }
+        } else {
+            // Remove ?theme=dark if light mode is active
+            if (window.location.search.includes("theme=dark")) {
+                const cleanUrl = window.location.pathname;
+                window.location.href = cleanUrl;
+            }
+        }
+    });
+    </script>
+</body>
+</html>
