@@ -28,7 +28,8 @@ A simple and elegant **Expense Tracker Web App** built with **Django**, **SQLite
 ## 🖼️ Screenshots
 
 ### 🔐 Login Page
-![Login Page]([screenshots/login.png](https://github.com/Amruta-Kumbhar3/expense-tracker-django/commit/54475581126f6e4aad241b01587c947df8204934#diff-ec3653d293792db7a431a4d525f2f3fdfcad66c2395ea0d5a8d0a8688eb2ddb3))
+![Login Page](https://github.com/Amruta-Kumbhar3/expense-tracker-django/blob/main/expenses/screenshots/login.png?raw=true)
+
 
 ### 🏠 Dashboard
 ![Dashboard](screenshots/dashboard.png)
