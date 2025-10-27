@@ -1,8 +1,9 @@
-# 💰 Expense Tracker (Django)
+## 🧾 About the Project
 
-A simple and elegant **Expense Tracker Web App** built with **Django**, **SQLite**, and **Matplotlib**.
+Expense Tracker is a web application built using **Django** that helps users record, manage, and visualize their daily expenses.  
+It supports multiple currencies, interactive data visualization using **Matplotlib**, and a smooth **dark/light mode** toggle for better usability.
 
----
+This project was created to demonstrate practical use of Django for full-stack development, integrating backend logic, frontend design, and database management seamlessly.
 
 ## 🚀 Features
 
@@ -13,7 +14,7 @@ A simple and elegant **Expense Tracker Web App** built with **Django**, **SQLite
 - User authentication (login/logout).
 - Mobile-friendly responsive design.
 
----
+
 
 ## 🛠️ Tech Stack
 
@@ -72,3 +73,16 @@ Master’s Student – Computer Science (UPM)
 📧 kumbharamruta2020@gmail.com
 🌐 [LinkedIn](https://www.linkedin.com/in/amruta-kumbhar-480959209/))  
 🐙 [GitHub](https://github.com/Amruta-Kumbhar3)
+
+
+## 🌱 First Project Note
+
+This is my **first Django project**, built to learn full-stack web development hands-on.  
+Through this project, I explored:
+- Building and structuring a Django web app  
+- Connecting backend logic with a dynamic frontend  
+- Working with databases, templates, and forms  
+- Using Matplotlib for visual data representation  
+- Deploying and managing code with Git and GitHub  
+
+This marks the beginning of my journey into advanced software development and AI-integrated applications.
