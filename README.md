@@ -65,8 +65,7 @@ pip install -r requirements.txt
 python manage.py runserver
 
 
-## 👩‍💻 Author
-
+## 👩‍💻 **Author**
 **Amruta Kumbhar**  
 Master’s Student – Computer Science (UPM)  
 📍 Malaysia  
