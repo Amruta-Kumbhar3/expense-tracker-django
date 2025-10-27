@@ -87,3 +87,15 @@ Through this project, I explored:
 - Deploying and managing code with Git and GitHub  
 
 This marks the beginning of my journey into advanced software development and AI-integrated applications.
+
+
+---
+
+## 📈 Future Improvements
+
+This project marks the foundation of my learning journey, and I plan to continue improving it with:
+- User expense summaries and monthly reports  
+- Cloud database integration for multi-user access  
+- Dashboard with interactive filters and analytics  
+- Integration of AI-based expense categorization  
+- Deployment on a public server (Heroku / Render) for live demo access  
