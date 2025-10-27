@@ -65,14 +65,18 @@ pip install -r requirements.txt
 python manage.py runserver
 
 
-## 👩‍💻 **Author**
+---
+
+## 👩‍💻 Author
+
 **Amruta Kumbhar**  
 Master’s Student – Computer Science (UPM)  
 📍 Malaysia  
-📧 kumbharamruta2020@gmail.com
-🌐 [LinkedIn](https://www.linkedin.com/in/amruta-kumbhar-480959209/))  
+📧 kumbharamruta2020@gmail.com  
+🌐 [LinkedIn](https://www.linkedin.com/in/amruta-kumbhar-480959209/)  
 🐙 [GitHub](https://github.com/Amruta-Kumbhar3)
 
+---
 
 ## 🌱 First Project Note
 
