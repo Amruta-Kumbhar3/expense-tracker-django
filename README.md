@@ -32,16 +32,16 @@ A simple and elegant **Expense Tracker Web App** built with **Django**, **SQLite
 
 
 ### 🏠 Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](https://github.com/Amruta-Kumbhar3/expense-tracker-django/blob/main/expenses/screenshots/dashboard.png?raw=true)
 
 ### ➕ Add Expense
-![Add Expense](screenshots/add_expense.png)
+![Add Expense](https://github.com/Amruta-Kumbhar3/expense-tracker-django/blob/main/expenses/screenshots/add_expense.png?raw=true)
 
 ### ✏️ Edit Expense
-![Edit Expense](screenshots/edit_expense.png)
+![Edit Expense](https://github.com/Amruta-Kumbhar3/expense-tracker-django/blob/main/expenses/screenshots/edit_expense.png?raw=true)
 
 ### 📊 Expense Chart
-![Expense Chart](screenshots/chart.png)
+![Chart](https://github.com/Amruta-Kumbhar3/expense-tracker-django/blob/main/expenses/screenshots/chart.png?raw=true)
 
 
 ## ⚙️ How to Run Locally
